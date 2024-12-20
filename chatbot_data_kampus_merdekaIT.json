@@ -1,0 +1,239 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hallo",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan"
+            ],
+            "responses": [
+                "Hai! InformaticsBot di sini. Mau tau informasi tentang apa nih?",
+                "Halo! Saya InformaticsBot, salam kenal ya! Mau tau tentang Kampus Merdeka untuk informatika?",
+                "Helo! Ini InformaticsBot. Lagi kepo tentang program informatika Kampus Merdeka ya?"
+            ]
+        },
+        {
+            "tag": "informaticsbot",
+            "patterns": [
+                "Apa itu InformaticsBot?",
+                "Siapa InformaticsBot?"
+            ],
+            "responses": [
+                "InformaticsBot adalah chatbot informasi tentang Kampus Merdeka, khususnya untuk program terkait informatika!",
+                "InformaticsBot adalah teman informasi kamu tentang Kampus Merdeka untuk jurusan informatika!"
+            ]
+        },
+        {
+            "tag": "penjelasan_kampus_merdeka",
+            "patterns": [
+                "Apa itu Kampus Merdeka?"
+            ],
+            "responses": [
+                "Kampus Merdeka merupakan kebijakan Menteri Pendidikan dan Kebudayaan yang memberikan kesempatan mahasiswa mengikuti kegiatan di luar program studinya untuk meningkatkan kompetensi, seperti magang, studi independen, dan program lainnya. Info lebih lanjut: https://kampusmerdeka.kemdikbud.go.id/"
+            ]
+        },
+        {
+            "tag": "program_kampus_merdeka_informatika",
+            "patterns": [
+                "Apa saja program Kampus Merdeka untuk Informatika?",
+                "Program informatika di Kampus Merdeka apa saja?"
+            ],
+            "responses": [
+                "Berikut adalah program Kampus Merdeka yang relevan untuk jurusan informatika: Studi Independen, Magang Bersertifikat, dan IISMA (Indonesian International Student Mobility Awards). Info lebih lanjut: https://kampusmerdeka.kemdikbud.go.id/program"
+            ]
+        },
+        {
+            "tag": "penjelasan_studi_independen",
+            "patterns": [
+                "Apa itu Studi Independen?"
+            ],
+            "responses": [
+                "Studi Independen adalah program Kampus Merdeka yang memungkinkan mahasiswa informatika belajar langsung dari perusahaan atau organisasi teknologi untuk meningkatkan kompetensi spesifik yang relevan dengan dunia kerja. Info lebih lanjut: https://kampusmerdeka.kemdikbud.go.id/program/studi-independen"
+            ]
+        },
+        {
+            "tag": "mitra_studi_independen_informatika",
+            "patterns": [
+                "Apa saja mitra Studi Independen untuk Informatika?"
+            ],
+            "responses": [
+                "Beberapa mitra Studi Independen yang relevan untuk informatika adalah Microsoft Indonesia, Orbit Future Academy, Dicoding, Google Indonesia, dan Amazon Web Services. Info lebih lanjut: https://kampusmerdeka.kemdikbud.go.id/program/studi-independen"
+            ]
+        },
+        {
+            "tag": "penjelasan_magang",
+            "patterns": [
+                "Apa itu Magang Bersertifikat?"
+            ],
+            "responses": [
+                "Magang Bersertifikat adalah program yang memberikan kesempatan mahasiswa informatika untuk bekerja di perusahaan teknologi dan mendapatkan pengalaman langsung di dunia industri. Info lebih lanjut: https://kampusmerdeka.kemdikbud.go.id/program/magang"
+            ]
+        },
+        {
+            "tag": "mitra_magang_informatika",
+            "patterns": [
+                "Apa saja mitra Magang Bersertifikat untuk Informatika?"
+            ],
+            "responses": [
+                "Beberapa mitra magang yang relevan untuk informatika adalah Shopee, Tokopedia, Gojek, Bukalapak, Traveloka, dan Telkom Indonesia. Info lebih lanjut tersedia di laman Kampus Merdeka: https://kampusmerdeka.kemdikbud.go.id/program/magang"
+            ]
+        },
+        {
+            "tag": "penjelasan_IISMA",
+            "patterns": [
+                "Apa itu IISMA?"
+            ],
+            "responses": [
+                "IISMA adalah program beasiswa untuk mahasiswa informatika yang ingin belajar di universitas terkemuka luar negeri dan mengambil mata kuliah yang relevan dengan teknologi dan informatika. Info lebih lanjut: https://iisma.kemdikbud.go.id/"
+            ]
+        },
+        {
+            "tag": "universitas_IISMA_informatika",
+            "patterns": [
+                "Apa saja universitas IISMA yang cocok untuk Informatika?"
+            ],
+            "responses": [
+                "Beberapa universitas dalam IISMA yang relevan untuk informatika adalah Nanyang Technological University, University of Melbourne, Boston University, dan Monash University. Info lebih lanjut tersedia di laman IISMA: https://iisma.kemdikbud.go.id/"
+            ]
+        },
+        {
+            "tag": "tips_memilih_program",
+            "patterns": [
+                "Bagaimana cara memilih program Kampus Merdeka untuk Informatika?",
+                "Tips memilih program Kampus Merdeka?"
+            ],
+            "responses": [
+                "Tips memilih program Kampus Merdeka: sesuaikan dengan minat dan tujuan karir Anda. Jika ingin pengalaman kerja, pilih magang. Jika ingin menambah skill spesifik, pilih Studi Independen."
+            ]
+        },
+        {
+            "tag": "alasan_kampus_merdeka",
+            "patterns": [
+                "Kenapa harus ikut Kampus Merdeka?",
+                "Apa manfaat Kampus Merdeka?"
+            ],
+            "responses": [
+                "Kampus Merdeka memberikan pengalaman belajar yang fleksibel, meningkatkan keterampilan, serta membangun koneksi dengan industri."
+            ]
+        },
+        {
+            "tag": "dokumentasi_pendaftaran",
+            "patterns": [
+                "Dokumen apa saja untuk daftar program Kampus Merdeka?"
+            ],
+            "responses": [
+                "Dokumen umum yang diperlukan adalah Kartu Tanda Mahasiswa (KTM), transkrip nilai, surat rekomendasi, dan CV. Cek persyaratan masing-masing program untuk lebih detail."
+            ]
+        },
+        {
+            "tag": "bimbingan_karir",
+            "patterns": [
+                "Apakah ada bimbingan karir di Kampus Merdeka?"
+            ],
+            "responses": [
+                "Ya, Kampus Merdeka menyediakan bimbingan karir untuk membantu mahasiswa merencanakan masa depan setelah mengikuti program."
+            ]
+        },
+        {
+            "tag": "networking",
+            "patterns": [
+                "Apakah program ini mendukung networking?",
+                "Bisakah saya membangun koneksi melalui program ini?"
+            ],
+            "responses": [
+                "Ya, program Kampus Merdeka memungkinkan Anda membangun koneksi dengan profesional di industri dan sesama mahasiswa."
+            ]
+        },
+        {
+            "tag": "program_pemrograman",
+            "patterns": [
+                "Apakah ada pelatihan coding di Kampus Merdeka?",
+                "Bisakah saya belajar programming di program ini?"
+            ],
+            "responses": [
+                "Tentu! Kampus Merdeka menawarkan pelatihan coding melalui Studi Independen dan mitra seperti Dicoding, Google, dan Microsoft."
+            ]
+        },
+        {
+            "tag": "program_digital_marketing",
+            "patterns": [
+                "Apakah ada program digital marketing di Kampus Merdeka?"
+            ],
+            "responses": [
+                "Ya, program digital marketing tersedia melalui mitra seperti Orbit Future Academy."
+            ]
+        },
+        {
+            "tag": "remote_internship",
+            "patterns": [
+                "Apakah tersedia magang remote?",
+                "Bisakah saya magang online?"
+            ],
+            "responses": [
+                "Ya, magang remote tersedia untuk mahasiswa yang ingin bekerja dari jarak jauh dengan perusahaan mitra."
+            ]
+        },
+        {
+            "tag": "study_abroad",
+            "patterns": [
+                "Bisakah saya belajar ke luar negeri?",
+                "Apakah ada program belajar ke luar negeri?"
+            ],
+            "responses": [
+                "Program IISMA memungkinkan Anda belajar di universitas luar negeri terkemuka selama satu semester."
+            ]
+        },
+        {
+            "tag": "kompetisi_teknologi",
+            "patterns": [
+                "Apakah ada lomba teknologi di Kampus Merdeka?",
+                "Bisakah saya ikut hackathon?"
+            ],
+            "responses": [
+                "Ya, beberapa program mendukung kompetisi seperti hackathon untuk mahasiswa informatika."
+            ]
+        },
+        {
+            "tag": "bootcamp",
+            "patterns": [
+                "Apakah ada bootcamp di Kampus Merdeka?"
+            ],
+            "responses": [
+                "Beberapa mitra seperti Dicoding dan Orbit Future Academy menawarkan bootcamp di bidang teknologi."
+            ]
+        },
+        {
+            "tag": "pengalaman_mahasiswa",
+            "patterns": [
+                "Apa cerita mahasiswa yang sudah ikut program ini?",
+                "Bagaimana pengalaman peserta sebelumnya?"
+            ],
+            "responses": [
+                "Banyak mahasiswa merasa terbantu meningkatkan skill dan mendapatkan pekerjaan lebih cepat setelah ikut Kampus Merdeka."
+            ]
+        },
+        {
+            "tag": "microcredentials",
+            "patterns": [
+                "Apa itu microcredentials?",
+                "Apakah saya dapat microcredentials di program ini?"
+            ],
+            "responses": [
+                "Microcredentials adalah sertifikasi keahlian khusus yang diakui oleh industri. Anda bisa mendapatkannya melalui Kampus Merdeka."
+            ]
+        }
+    ]
+}
