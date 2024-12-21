@@ -38,7 +38,7 @@ Model yang digunakan adalah **LSTM**.
 | **Parameter**  | **Value**                             |
 |----------------|---------------------------------------|
 | **loss**       | `sparse_categorical_crossentropy`     |
-| **optimizer**  | `adam`                                |
+| **optimizer**  | `adam` (default: 0.001)                               |
 | **metrics**    | `accuracy`                            |
 
 ## **Training Model**
