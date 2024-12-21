@@ -22,13 +22,13 @@ Model yang digunakan adalah **LSTM**.
 
 **ARSITEKTUR MODEL:**
 
-| **Lapisan**                   | **Deskripsi**                                                                 | **Parameter**                                                   | 
+| **Lapisan**                   | **Deskripsi**                                                                 | **Value**                                                   | 
 |-------------------------------|-------------------------------------------------------------------------------|---------------------------------------------------------------|
 | **Input Layer**                | Menerima data input dan memberikan data tersebut ke lapisan berikutnya.      | `shape=(input_shape,)`                                          | 
-| **Embedding Layer**            | Mengonversi kata-kata dalam teks menjadi vektor numerik.                     | `vocabulary+1`: Ukuran vocabulary (jumlah kata unik + 1), `10`: Dimensi vektor embedding. |
-| **LSTM Layer**                 | Memproses data urutan dan mengenali pola serta hubungan antar elemen yang berurutan. | `10`: Jumlah unit LSTM, `return_sequences=True`: Mengembalikan seluruh urutan output, `recurrent_dropout=0.2`| 
+| **Embedding Layer**            | Mengonversi kata-kata dalam teks menjadi vektor numerik.                     | `vocabulary+1`, `10`. |
+| **LSTM Layer**                 | Memproses data urutan dan mengenali pola serta hubungan antar elemen yang berurutan. | `10`, `return_sequences=True`, `recurrent_dropout=0.2`| 
 | **Flatten Layer**              | Menyamkan keluaran dari LSTM agar dapat diproses lebih lanjut oleh lapisan berikutnya. | Tidak ada parameter tambahan.|
-| **Dense Layer dengan Softmax** | Melakukan klasifikasi dan menghasilkan output probabilitas untuk setiap kelas yang ada. | `output_length`: Jumlah kelas output, `activation="softmax"`|
+| **Dense Layer dengan Softmax** | Melakukan klasifikasi dan menghasilkan output probabilitas untuk setiap kelas yang ada. | `output_length`, `activation="softmax"`|
 
 
 ![Arsitektur model](https://github.com/marsahulwa/UAS-DEEP-LEARNING/blob/main/Gambar/Arsitektur%20model.png)
