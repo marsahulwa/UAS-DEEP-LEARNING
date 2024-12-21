@@ -1,8 +1,11 @@
-# **UAS DEEP LEARNAING (UAS)**
+# **DEEP LEARNING (UAS)**
 # **CHAT BOT INFORMASI UNIB**
 
-### NAMA ANGHOTA KELOMPOK
-- **PUTRI RAHMAYANI** (G1A021030)
-- **MARSA HULWA INDRI MUTHI** (G1A021058)
-- **TRIANA KESUMANINGRUM** (G1A021068)
+```markdown
+### Nama Anggota Kelompok
 
+| Nama                                | NPM         |
+|-------------------------------------|-------------|
+| **PUTRI RAHMAYANI**                 | G1A021030   |
+| **MARSA HULWA INDRI MUTHI**         | G1A021058   |
+| **TRIANA KESUMANINGRUM**            | G1A021068   |
