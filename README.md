@@ -1,7 +1,6 @@
 # **DEEP LEARNING (UAS)**
 # **CHAT BOT INFORMASI UNIB**
 
-```markdown
 ### Nama Anggota Kelompok
 
 | Nama                                | NPM         |
