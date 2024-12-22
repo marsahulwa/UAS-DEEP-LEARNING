@@ -14,7 +14,9 @@ Chatbot adalah perangkat lunak yang dapat berkomunikasi dengan manusia menggunak
 
 ## **DATASET**
 **Dataset** di buat dengan proses pengumpulan data manual melalui informasi yang tersedia pada laman web universitas bengkulu.
-**Dataset** berformat JSON.
+
+**Dataset** lalu disimpan dengan format JSON.
+
 **Pengolahan data** dilakukan dengan **Tokenizer** untuk tokenisasi teks, menyamakan panjang urutan data dengan **Padding**, **LabelEncoder** untuk Encoding label.
 
 ## **MODEL**
