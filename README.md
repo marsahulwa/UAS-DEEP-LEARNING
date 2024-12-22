@@ -18,7 +18,7 @@ Chatbot adalah perangkat lunak yang dapat berkomunikasi dengan manusia menggunak
 **Pengolahan data** dilakukan dengan **Tokenizer** untuk tokenisasi teks, menyamakan panjang urutan data dengan **Padding**, **LabelEncoder** untuk Encoding label.
 
 ## **MODEL**
-Model yang digunakan adalah **LSTM**.
+Model yang digunakan adalah **LSTM(Long Short-Term Memory)**.
 
 **ARSITEKTUR MODEL:**
 
