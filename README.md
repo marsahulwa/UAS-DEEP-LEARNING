@@ -10,7 +10,7 @@
 | **TRIANA KESUMANINGRUM**            | G1A021068   |
 
 ## **LATAR BELAKANG**
-Chatbot adalah perangkat lunak yang dapat berkomunikasi dengan manusia menggunakan bahasa alami. Model percakapan menggunakan teknologi kecerdeasan buatan agar mampu memahami ucapan pengguna dan memberi tanggapan yang relevan mengenai pertanyaan dari pengguna. Chatbot Informasi Universitas Bengkulu (UNIB) digunakan untuk meningkatkan efisiensi mahasiswa maupun masyrakat untuk mencari informasi mengenai universitas bengkulu.
+Chatbot adalah perangkat lunak yang dapat berkomunikasi dengan manusia menggunakan bahasa alami. Model percakapan menggunakan teknologi kecerdasan buatan agar mampu memahami ucapan pengguna dan memberi tanggapan yang relevan mengenai pertanyaan dari pengguna. Chatbot Informasi Universitas Bengkulu (UNIB) digunakan untuk meningkatkan efisiensi mahasiswa maupun masyrakat untuk mencari informasi mengenai universitas bengkulu.
 
 ## **DATASET**
 **Dataset** di buat dengan proses pengumpulan data manual melalui informasi yang tersedia pada laman web universitas bengkulu.
