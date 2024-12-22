@@ -48,5 +48,15 @@ Model di train dengan **500 epoch**
 
 ![Grafik Hasil Train](https://github.com/marsahulwa/UAS-DEEP-LEARNING/blob/main/Gambar/Grafik%20Hasil%20Train.png)
 
+## **Hasil Test ChatBot Informasi Unib** 
+
+![hasil1](https://github.com/marsahulwa/UAS-DEEP-LEARNING/blob/main/Gambar/hasil1.png)
+![hasil2](https://github.com/marsahulwa/UAS-DEEP-LEARNING/blob/main/Gambar/hasil2.png)
+
+## **Kesimpulan**
+Pada pembuatan **ChatBot Informasi Unib** model yang digunakan adalah **LSTM** dengan pengaturan arsitektur dan parameter di dapatkan **akurasi 1.0000** dan **loss 0.0383** dari proses training dengan **500 epoch**, akurasi yang terus meningkat dan sangat tinggi serta loss yang terus menrun dan sangat rendah menunjukkan model telah cukup baik untuk diimplemenetasikan pada pengklasifikasian text seperti chatbot.
+
+
+
 
 
