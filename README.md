@@ -56,6 +56,11 @@ Model di train dengan **500 epoch**
 ## **Kesimpulan**
 Pada pembuatan **ChatBot Informasi Unib** model yang digunakan adalah **LSTM** dengan pengaturan arsitektur dan parameter di dapatkan **akurasi 1.0000** dan **loss 0.0383** dari proses training dengan **500 epoch**, akurasi yang terus meningkat dan sangat tinggi serta loss yang terus menrun dan sangat rendah menunjukkan model telah cukup baik untuk diimplemenetasikan pada pengklasifikasian text seperti chatbot.
 
+## **Analisa bagaimana model dapat dikatakan sebgai deep learning dan bukan shallow learn?**
+
+Model LSTM dalam pembuatan ChatBot mengenai Informasi Unib termasuk dalam kategori Deep learning karena menggunakan arsitektur jaringan saraf dalam, dengan banyak lapisan. Model LSTM memilikki banyak lapisan seperti Input Layer, Embedding Layer, LSTM layer, Flatten, Dense. Sedangkan Shallow learn merupakan model sederhana atau model yang dangkal, biasayanya hanya menggunakan beberapa lapisan tidak sedalam lapian pada deep learning yang membuatnya kurang efektif dalam menangain masalah seperti pembuatan chatbot atau pengklasifikasian teks
+
+
 
 
 
